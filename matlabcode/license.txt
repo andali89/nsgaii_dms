@@ -1,0 +1,79 @@
+Copyright (c) 2022, An-Da Li 
+All rights reserved.
+
+Coded by An-Da Li
+Email: andali1989@163.com
+
+This is an implementation of a multi-objective optimization algorithm NSGAII-DMS.
+This algorithm is designed for a multiobjective robust MRO model that simultaneously 
+optimizes the robust desirabilty functions of the location and dispersion effects of 
+multiple responses considering model uncertainty. NSGAII-DMS combines the search mechanisms 
+of NSGA-II and DMS. Please refer to the following paper for more details about the model 
+and the NSGAII-DMS algorithm:
+
+Li, A.-D., He, Z.,& Zhang, Y. (2022). Robust multi-response optimization considering 
+location effect, dispersion effect, and model uncertainty using hybridization of 
+NSGA-II and direct multi-search. Computers & Industrial Engineering,108247.
+https://doi.org/10.1016/j.cie.2022.108247
+
+
+The code is developed based on the source code of Yarpiz. The files  'main', 'binTourSel', 
+'checkFronts', 'crossover', 'mutation', 'mysort', 'perfectpoint','selecF', 'DMS_process', 
+'NonDominatedSortingDMS' , 'genempty' and 'smoothPop' are coded by An-Da Li. 
+The file 'NSGAIIDMS' is revised by An-Da Li based on Yarpiz's NSGAII code. Other files 
+are coded by Yarpiz.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+	  
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in
+      the documentation and/or other materials provided with the distribution
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+
+
+
+
+The licence statement of Yarpiz is shown as follows.
+
+Copyright (c) 2015, Yarpiz (www.yarpiz.com)
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+	  
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in
+      the documentation and/or other materials provided with the distribution
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
