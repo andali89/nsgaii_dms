@@ -13,7 +13,7 @@ and the NSGAII-DMS algorithm:
 
 Li, A.-D., He, Z., & Zhang, Y. (2022). Robust multi-response optimization considering 
 location effect, dispersion effect, and model uncertainty using hybridization of 
-NSGA-II and direct multi-search. Computers & Industrial Engineering,108247.
+NSGA-II and direct multi-search. Computers & Industrial Engineering, 169, 108247.
 https://doi.org/10.1016/j.cie.2022.108247
 
 
